@@ -3,3 +3,5 @@ venv/
 .env
 .flaskenv
 .vscode
+__pycache__/
+*.pyc
