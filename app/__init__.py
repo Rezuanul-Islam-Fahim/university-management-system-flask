@@ -11,4 +11,7 @@ def create_app(config=Config):
 
     db.init_app(app)
 
+    from app.web import AuthBlueprint
+    app.register_blueprint(AuthBlueprint, url_prefix='/auth')
+
     return app

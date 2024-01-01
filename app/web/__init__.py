@@ -1,0 +1,1 @@
+from app.web.login import bp as AuthBlueprint
