@@ -1,4 +1,4 @@
-from app.web.login import bp
+from app.web.auth import bp
 
 
 @bp.route('/login')

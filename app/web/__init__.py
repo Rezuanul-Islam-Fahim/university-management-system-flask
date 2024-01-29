@@ -1,1 +1,1 @@
-from app.web.login import bp as AuthBlueprint
+from app.web.auth import bp as AuthBlueprint
