@@ -7,7 +7,7 @@ from app.db import db
 
 def create_app(config=Config):
 
-    app = Flask(__name__)
+    app = Flask(__name__, template_folder='web/templates')
     app.config.from_object(config)
 
     db.init_app(app)
